@@ -1,0 +1,64 @@
+:root{
+    --primary-color: #06070a;
+    --accent-color: #636ea3;
+    --background-color: #25293d;
+    --text-color: #fff;
+    
+}
+
+html, body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.is-invalid{
+    color: #ff0000
+}
+input.output-input-field.form-control{
+    color: var(--accent-color);
+}
+/** Buttons */  
+
+.btn{
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    border: 1px solid var(--accent-color);
+    padding: 12px 15px;
+    font-size: 1.1em;
+}
+.btn:focus{
+    outline: none;
+    box-shadow: 0 0 0 2px var(--accent-color);
+    border:  none;
+}
+.btn:hover{
+    background-color: var(--background-color);
+    border: 1px solid var(--accent-color);
+}
+
+/* Input */
+input.form-control{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid var(--accent-color);
+    padding: 12px 15px;
+    font-size: 1.1em;
+}
+input.form-control:focus{
+    outline: none;
+    box-shadow: 0 0 0 2px var(--accent-color);
+    border:  none;
+}
+
+input.form-control::placeholder{
+    color: var(--accent-color);
+}
+
+/* a */
+a{
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+a:hover{
+    color: var(--text-color);
+}

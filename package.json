@@ -1,0 +1,30 @@
+{
+  "name": "url_shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/officialbishowb/url_shortener.git"
+  },
+  "keywords": [
+    "url",
+    "shortener"
+  ],
+  "author": "officialbishowb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/officialbishowb/url_shortener/issues"
+  },
+  "homepage": "https://github.com/officialbishowb/url_shortener#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "csrf": "^3.1.0",
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2",
+    "node-device-detector": "^2.0.12"
+  }
+}
